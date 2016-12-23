@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+  "name": "Screen Capture",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Screen capture",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/",
+    "https://*/",
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
